@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Optimization - Intelligent Transport Systems Portfolio</title>
+    <meta name="description" content="Energy optimization techniques in Intelligent Transport Systems">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <!-- Custom Animated Navigation -->
+    <div id="menu">
+        <button type="button" id="menu-toggle">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>  
+            <div id="menu-toggle-label">
+                <span class="word">ITS</span>
+                <span class="word">PORTFOLIO</span>
+            </div>
+        </button>
+        <div id="menu-gradient"></div>
+        <div id="menu-gradient-blur"></div>
+        <div id="menu-arcs-wrapper">
+            <svg id="menu-arcs">
+                <circle class="menu-arc" cx="50%" cy="50%" r="18%"></circle>
+                <circle class="menu-arc" cx="50%" cy="50%" r="30%"></circle>
+                <circle class="menu-arc" cx="50%" cy="50%" r="42%"></circle>
+            </svg>
+        </div>
+                <div id="menu-links">
+            <a class="link" href="index.html">
+                <span class="anchor"></span>  
+                <span class="index">01</span>  
+                <span class="label">Home</span>  
+            </a>
+            <a class="link" href="introduction.html">
+                <span class="anchor"></span>  
+                <span class="index">02</span>  
+                <span class="label">Introduction</span>  
+            </a>
+            <a class="link" href="energy-optimization.html">
+                <span class="anchor"></span>  
+                <span class="index">03</span>  
+                <span class="label">Energy Optimization</span>  
+            </a>
+            <a class="link" href="communication.html">
+                <span class="anchor"></span>  
+                <span class="index">04</span>  
+                <span class="label">Communication</span>  
+            </a>
+            <a class="link" href="future-tech.html">
+                <span class="anchor"></span>  
+                <span class="index">05</span>  
+                <span class="label">Future Tech</span>  
+            </a>
+            <a class="link" href="conclusion.html">
+                <span class="anchor"></span>  
+                <span class="index">06</span>  
+                <span class="label">Conclusion</span>  
+            </a>
+        </div>
+    </div>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <nav class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span class="breadcrumb-separator">/</span>
+                    <span class="breadcrumb-current">Energy Optimization</span>
+                </nav>
+                <h1 class="page-title">Energy Optimization in ITS</h1>
+                <p class="page-subtitle">Techniques for maximizing energy efficiency in battery-driven ITS subsystems</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Energy Challenges Section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Energy Challenges in ITS</h2>
+                <div class="content-grid two-column">
+                    <div class="content-visual">
+                        <img src="assets/leaf.svg" alt="Energy Sustainability Visualization" class="energy-visualization">
+                    </div>
+                    <div class="content-text">
+                        <p>
+                            ITS subsystems are predominantly battery-driven, making energy optimization a critical 
+                            factor for system sustainability and operational efficiency. Modern ITS implementations 
+                            employ sophisticated energy management strategies to maximize operational lifespan while 
+                            maintaining optimal performance.
+                        </p>
+                        <p>
+                            The challenge lies in balancing the high computational and communication requirements 
+                            of ITS applications with the limited energy resources available in mobile and distributed 
+                            environments.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Energy Optimization Techniques Section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Key Energy Optimization Techniques</h2>
+                <div class="technique-list">
+                    <div class="technique-item">
+                        <div class="technique-icon">🔋</div>
+                        <div class="technique-content">
+                            <h3>Multisourcing</h3>
+                            <p>Combining multiple energy sources including solar panels, kinetic energy harvesting, 
+                            and traditional battery systems to ensure continuous operation. This approach provides 
+                            redundancy and extends system lifetime by leveraging renewable energy sources.</p>
+                            <ul>
+                                <li>Solar photovoltaic panels for daytime energy harvesting</li>
+                                <li>Kinetic energy from traffic vibrations and movement</li>
+                                <li>Wind energy from passing vehicles</li>
+                                <li>Backup battery systems for energy storage</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="technique-item">
+                        <div class="technique-icon">🏗️</div>
+                        <div class="technique-content">
+                            <h3>Sectionalization</h3>
+                            <p>Dividing the transportation network into energy-efficient zones with localized 
+                            power management and load balancing. Each section operates independently while 
+                            coordinating with adjacent sections for optimal energy distribution.</p>
+                            <ul>
+                                <li>Zone-based power management systems</li>
+                                <li>Load balancing across network sections</li>
+                                <li>Localized energy storage and distribution</li>
+                                <li>Adaptive power allocation based on traffic density</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="technique-item">
+                        <div class="technique-icon">⚡</div>
+                        <div class="technique-content">
+                            <h3>Macro-level Power Harvesting</h3>
+                            <p>Implementing large-scale energy harvesting systems that capture ambient energy 
+                            from traffic flow, solar radiation, and environmental vibrations. These systems 
+                            provide sustainable power for entire transportation corridors.</p>
+                            <ul>
+                                <li>Piezoelectric materials in road surfaces</li>
+                                <li>Solar canopies over highways and parking areas</li>
+                                <li>Thermoelectric generators using temperature differentials</li>
+                                <li>Electromagnetic induction from vehicle movement</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Advanced Energy Efficiency Solutions Section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Advanced Energy Efficiency Solutions</h2>
+                <div class="solutions-grid">
+                    <div class="solution-card">
+                        <div class="solution-icon">🚫</div>
+                        <h3>Extended Access Barring (EAB)</h3>
+                        <p>Prevents network congestion by intelligently managing device access, reducing unnecessary communication attempts and power consumption by 30-40%.</p>
+                    </div>
+                    <div class="solution-card">
+                        <div class="solution-icon">📊</div>
+                        <h3>MCS Optimization</h3>
+                        <p>Modulation and Coding Scheme optimization adapts transmission parameters to channel conditions, maximizing energy efficiency while maintaining data integrity.</p>
+                    </div>
+                    <div class="solution-card">
+                        <div class="solution-icon">🔗</div>
+                        <h3>Clustering Techniques</h3>
+                        <p>Groups nearby devices to share communication resources, reducing individual power requirements through cooperative communication and load balancing.</p>
+                    </div>
+                    <div class="solution-card">
+                        <div class="solution-icon">🤖</div>
+                        <h3>Reinforcement Learning</h3>
+                        <p>AI-driven node selection and resource allocation that learns optimal energy management strategies over time, adapting to changing network conditions.</p>
+                    </div>
+                    <div class="solution-card">
+                        <div class="solution-icon">📡</div>
+                        <h3>OFDMA/SC-FDMA</h3>
+                        <p>Advanced multiple access techniques that optimize spectrum utilization and reduce interference, improving energy efficiency through better resource allocation.</p>
+                    </div>
+                    <div class="solution-card">
+                        <div class="solution-icon">⚡</div>
+                        <h3>Dynamic Power Scaling</h3>
+                        <p>Adjusting processing power and communication frequency based on real-time requirements and available energy levels for optimal efficiency.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Energy Savings Analysis Section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Energy Savings Analysis</h2>
+                <div class="content-grid">
+                    <div class="content-text">
+                        <p>
+                            The effectiveness of different energy optimization techniques varies based on implementation 
+                            context, environmental conditions, and system requirements. The following analysis shows 
+                            the potential energy savings achievable through various optimization strategies.
+                        </p>
+                        <p>
+                            These metrics are based on real-world implementations and field studies conducted across 
+                            different ITS deployment scenarios, providing valuable insights for system designers and 
+                            energy managers.
+                        </p>
+                    </div>
+                    <div class="energy-chart">
+                        <h3>Energy Savings by Technique</h3>
+                        <div class="chart-container">
+                            <div class="chart-bar">
+                                <div class="bar-fill" style="width: 85%"></div>
+                                <span class="bar-label">Multisourcing: 85%</span>
+                            </div>
+                            <div class="chart-bar">
+                                <div class="bar-fill" style="width: 70%"></div>
+                                <span class="bar-label">Sectionalization: 70%</span>
+                            </div>
+                            <div class="chart-bar">
+                                <div class="bar-fill" style="width: 60%"></div>
+                                <span class="bar-label">Power Harvesting: 60%</span>
+                            </div>
+                            <div class="chart-bar">
+                                <div class="bar-fill" style="width: 75%"></div>
+                                <span class="bar-label">Duty Cycle Management: 75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Navigation Section -->
+        <section class="section navigation-section">
+            <div class="container">
+                <h2 class="section-title">Continue Exploring</h2>
+                <div class="navigation-cards">
+                    <a href="introduction.html" class="nav-card">
+                        <span class="nav-arrow">←</span>
+                        <div class="nav-content">
+                            <h3>Introduction</h3>
+                            <p>Back to ITS fundamentals</p>
+                        </div>
+                    </a>
+                    <a href="communication.html" class="nav-card">
+                        <span class="nav-arrow">→</span>
+                        <div class="nav-content">
+                            <h3>Communication Technology</h3>
+                            <p>Explore V2V, V2I communications and data processing</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Animated Footer -->
+    <footer class="footer">
+        <div class="bubbles">
+            <!-- Bubbles will be generated by JavaScript -->
+        </div>
+        <div class="content">
+            <div>
+                <div>
+                    <b>Energy Management</b>
+                    <a href="index.html">Home</a>
+                    <a href="introduction.html">Introduction</a>
+                    <a href="energy-optimization.html">Optimization</a>
+                    <a href="communication.html">Communication</a>
+                    <a href="future-tech.html">Future Tech</a>
+                    <a href="conclusion.html">Conclusion</a>
+                </div>
+                <div>
+                    <b>Technologies</b>
+                    <a href="energy-optimization.html">Smart Grids</a>
+                    <a href="communication.html">IoT Systems</a>
+                    <a href="future-tech.html">AI Integration</a>
+                    <a href="conclusion.html">Sustainability</a>
+                </div>
+                <div>
+                    <b>Applications</b>
+                    <a href="introduction.html">Transport Systems</a>
+                    <a href="energy-optimization.html">Energy Efficiency</a>
+                    <a href="communication.html">Data Processing</a>
+                    <a href="future-tech.html">V2G Technology</a>
+                    <a href="conclusion.html">Research</a>
+                </div>
+                <div>
+                    <b>Resources</b>
+                    <a href="index.html">Overview</a>
+                    <a href="energy-optimization.html">Solutions</a>
+                    <a href="communication.html">Protocols</a>
+                    <a href="future-tech.html">Innovations</a>
+                </div>
+            </div>
+            <div>
+                <div class="image">⚡</div>
+                <p>&copy; 2024 ITS Portfolio<br>Energy Systems - Unit 5</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SVG Filter for Blob Effect -->
+    <svg style="position: fixed; top: 100vh">
+        <defs>
+            <filter id="blob">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"/>
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="blob"/>
+            </filter>
+        </defs>
+    </svg>
+
+    <script src="main.js"></script>
+        <script>
+        // Global navigation functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Global navigation script loaded');
+            
+            // Menu toggle button
+            const menuButton = document.getElementById('menu-toggle');
+            if (menuButton) {
+                console.log('Menu button found');
+                menuButton.addEventListener('click', function(e) {
+                    console.log('Menu button clicked');
+                    e.preventDefault();
+                    document.body.classList.toggle('menu-toggled');
+                });
+            }
+            
+            // Menu links - close menu when clicked
+            const menuLinks = document.querySelectorAll('#menu-links .link');
+            menuLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+                    
+                    // Check if clicking on the current page
+                    if (href === currentPage || (href === 'index.html' && currentPage === '')) {
+                        // Add close animation for same section
+                        e.preventDefault();
+                        document.body.classList.add('menu-closing');
+                        setTimeout(() => {
+                            document.body.classList.remove('menu-toggled');
+                            document.body.classList.remove('menu-closing');
+                        }, 300);
+                    } else {
+                        // Close menu when navigating to different page
+                        document.body.classList.remove('menu-toggled');
+                    }
+                });
+            });
+            
+            // Close menu when clicking outside
+            const menu = document.getElementById('menu');
+            if (menu) {
+                document.addEventListener('click', function(event) {
+                    if (!menu.contains(event.target) && document.body.classList.contains('menu-toggled')) {
+                        document.body.classList.remove('menu-toggled');
+                    }
+                });
+            }
+            
+            // ESC key to close menu
+            document.addEventListener('keydown', function(event) {
+                if (event.key === 'Escape' && document.body.classList.contains('menu-toggled')) {
+                    document.body.classList.remove('menu-toggled');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="transportGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#0d9488;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    
+    <!-- Road/Path -->
+    <rect x="10" y="80" width="80" height="8" fill="#64748b" rx="4"/>
+    
+    <!-- Vehicle Body -->
+    <rect x="20" y="50" width="60" height="25" fill="url(#transportGradient)" rx="3"/>
+    
+    <!-- Vehicle Cabin -->
+    <rect x="25" y="40" width="50" height="15" fill="url(#transportGradient)" rx="2"/>
+    
+    <!-- Windows -->
+    <rect x="30" y="42" width="15" height="8" fill="#e2e8f0" rx="1"/>
+    <rect x="55" y="42" width="15" height="8" fill="#e2e8f0" rx="1"/>
+    
+    <!-- Wheels -->
+    <circle cx="30" cy="80" r="8" fill="#1e293b"/>
+    <circle cx="70" cy="80" r="8" fill="#1e293b"/>
+    <circle cx="30" cy="80" r="5" fill="#475569"/>
+    <circle cx="70" cy="80" r="5" fill="#475569"/>
+    
+    <!-- Headlights -->
+    <circle cx="20" cy="55" r="3" fill="#fbbf24"/>
+    <circle cx="20" cy="65" r="3" fill="#fbbf24"/>
+    
+    <!-- Signal/Communication Waves -->
+    <path d="M 85 45 Q 90 40 95 45 Q 90 50 85 45" stroke="#06b6d4" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M 88 45 Q 92 42 96 45 Q 92 48 88 45" stroke="#06b6d4" stroke-width="1.5" fill="none" opacity="0.5"/>
+    <path d="M 90 45 Q 93 44 96 45 Q 93 46 90 45" stroke="#06b6d4" stroke-width="1" fill="none" opacity="0.3"/>
+</svg>

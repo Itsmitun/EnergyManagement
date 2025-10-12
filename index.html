@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intelligent Transport Systems - Energy Management Portfolio</title>
+    <meta name="description" content="Student portfolio on Intelligent Transport Systems focusing on energy optimization and efficiency">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Custom Animated Navigation -->
+    <div id="menu">
+        <button type="button" id="menu-toggle">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>  
+            <div id="menu-toggle-label">
+                <span class="word">ITS</span>
+                <span class="word">PORTFOLIO</span>
+            </div>
+        </button>
+        <div id="menu-gradient"></div>
+        <div id="menu-gradient-blur"></div>
+        <div id="menu-arcs-wrapper">
+            <svg id="menu-arcs">
+                <circle class="menu-arc" cx="50%" cy="50%" r="18%"></circle>
+                <circle class="menu-arc" cx="50%" cy="50%" r="30%"></circle>
+                <circle class="menu-arc" cx="50%" cy="50%" r="42%"></circle>
+            </svg>
+        </div>
+        <div id="menu-links">
+            <a class="link" href="index.html">
+                <span class="anchor"></span>  
+                <span class="index">01</span>  
+                <span class="label">Home</span>  
+            </a>
+            <a class="link" href="introduction.html">
+                <span class="anchor"></span>  
+                <span class="index">02</span>  
+                <span class="label">Introduction</span>  
+            </a>
+            <a class="link" href="energy-optimization.html">
+                <span class="anchor"></span>  
+                <span class="index">03</span>  
+                <span class="label">Energy Optimization</span>  
+            </a>
+            <a class="link" href="communication.html">
+                <span class="anchor"></span>  
+                <span class="index">04</span>  
+                <span class="label">Communication</span>  
+            </a>
+            <a class="link" href="future-tech.html">
+                <span class="anchor"></span>  
+                <span class="index">05</span>  
+                <span class="label">Future Tech</span>  
+            </a>
+            <a class="link" href="conclusion.html">
+                <span class="anchor"></span>  
+                <span class="index">06</span>  
+                <span class="label">Conclusion</span>  
+            </a>
+        </div>
+    </div>
+
+    <!-- Old Navigation (Hidden) -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <h2>Home</h2>
+                </a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="introduction.html" class="nav-link">Introduction</a>
+                </li>
+                <li class="nav-item">
+                    <a href="energy-optimization.html" class="nav-link">Energy Optimization</a>
+                </li>
+                <li class="nav-item">
+                    <a href="communication.html" class="nav-link">Communication</a>
+                </li>
+                <li class="nav-item">
+                    <a href="data-processing.html" class="nav-link">Data Processing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="efficiency-solutions.html" class="nav-link">Solutions</a>
+                </li>
+                <li class="nav-item">
+                    <a href="future-tech.html" class="nav-link">Future Tech</a>
+                </li>
+                <li class="nav-item">
+                    <a href="ble-example.html" class="nav-link">BLE Example</a>
+                </li>
+                <li class="nav-item">
+                    <a href="conclusion.html" class="nav-link">Conclusion</a>
+                </li>
+                <li class="nav-item">
+                    <a href="references.html" class="nav-link">References</a>
+                </li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                    <svg class="theme-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path>
+                    </svg>
+                </button>
+                <button class="print-btn" id="print-btn" aria-label="Print portfolio">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6,9 6,2 18,2 18,9"></polyline>
+                        <path d="M6,18H4a2,2 0,0,1-2-2V11a2,2 0,0,1,2-2H20a2,2 0,0,1,2,2v5a2,2 0,0,1-2,2H18"></path>
+                        <rect x="6" y="14" width="12" height="8"></rect>
+                    </svg>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="header-title">Intelligent Transport Systems</h1>
+                <p class="header-subtitle">Energy Management & Optimization in Modern Transportation</p>
+                <p class="header-description">
+                    A comprehensive study of energy-efficient technologies and communication systems 
+                    that power the future of intelligent transportation networks.
+                </p>
+                <div class="header-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">40%</span>
+                        <span class="stat-label">Energy Reduction</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">60%</span>
+                        <span class="stat-label">Traffic Efficiency</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">85%</span>
+                        <span class="stat-label">Safety Improvement</span>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <a href="introduction.html" class="btn btn-primary">Explore Portfolio</a>
+                    <a href="references.html" class="btn btn-secondary">View References</a>
+                </div>
+            </div>
+            <div class="header-visual">
+                <div class="transport-animation">
+                    <div class="svg-animation-container">
+                        <img src="assets/truckmoving.svg" alt="Animated truck delivery service" class="truck-svg-animation">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Portfolio Overview Section -->
+        <section class="section overview-section">
+            <div class="container">
+                <h2 class="section-title">Portfolio Overview</h2>
+                <article class="card__container">
+                    <div class="card mobile" tabindex="0">
+                        <div class="card-content">
+                            <div class="card-icon">🚦</div>
+                            <h3>Introduction</h3>
+                            <p>Understanding the fundamentals of Intelligent Transport Systems and their role in modern transportation.</p>
+                            <a href="introduction.html" class="card-link">Learn More →</a>
+                        </div>
+                    </div>
+                    <div class="card mobile" tabindex="0">
+                        <div class="card-content">
+                            <div class="card-icon">⚡</div>
+                            <h3>Energy Optimization</h3>
+                            <p>Techniques for maximizing energy efficiency in battery-driven ITS subsystems and advanced solutions.</p>
+                            <a href="energy-optimization.html" class="card-link">Learn More →</a>
+                        </div>
+                    </div>
+                    <div class="card mobile" tabindex="0">
+                        <div class="card-content">
+                            <div class="card-icon">📡</div>
+                            <h3>Communication Technology</h3>
+                            <p>V2V and V2I communications with power optimization strategies and data processing challenges.</p>
+                            <a href="communication.html" class="card-link">Learn More →</a>
+                        </div>
+                    </div>
+                    <div class="card mobile" tabindex="0">
+                        <div class="card-content">
+                            <div class="card-icon">🚗</div>
+                            <h3>Future Technologies</h3>
+                            <p>IoV, CAV, V2X, and V2G technologies shaping the future of transportation.</p>
+                            <a href="future-tech.html" class="card-link">Learn More →</a>
+                        </div>
+                    </div>
+                    <div class="card mobile" tabindex="0">
+                        <div class="card-content">
+                            <div class="card-icon">🎯</div>
+                            <h3>Conclusion</h3>
+                            <p>Summary of achievements and future scope in intelligent transportation.</p>
+                            <a href="conclusion.html" class="card-link">Learn More →</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Animated Footer -->
+    <footer class="footer">
+        <div class="bubbles">
+            <!-- Bubbles will be generated by JavaScript -->
+        </div>
+        <div class="content">
+            <div>
+                <div>
+                    <b>Energy Management</b>
+                    <a href="introduction.html">Introduction</a>
+                    <a href="energy-optimization.html">Optimization</a>
+                    <a href="communication.html">Communication</a>
+                    <a href="future-tech.html">Future Tech</a>
+                    <a href="conclusion.html">Conclusion</a>
+                </div>
+                <div>
+                    <b>Technologies</b>
+                    <a href="energy-optimization.html">Smart Grids</a>
+                    <a href="communication.html">IoT Systems</a>
+                    <a href="future-tech.html">AI Integration</a>
+                    <a href="conclusion.html">Sustainability</a>
+                </div>
+                <div>
+                    <b>Applications</b>
+                    <a href="introduction.html">Transport Systems</a>
+                    <a href="energy-optimization.html">Energy Efficiency</a>
+                    <a href="communication.html">Data Processing</a>
+                    <a href="future-tech.html">V2G Technology</a>
+                    <a href="conclusion.html">Research</a>
+                </div>
+                <div>
+                    <b>Resources</b>
+                    <a href="introduction.html">Overview</a>
+                    <a href="energy-optimization.html">Solutions</a>
+                    <a href="communication.html">Protocols</a>
+                    <a href="future-tech.html">Innovations</a>
+                </div>
+            </div>
+            <div>
+                <div class="image">⚡</div>
+                <p>&copy; 2024 Home<br>Energy Systems - Unit 5</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SVG Filter for Blob Effect -->
+    <svg style="position: fixed; top: 100vh">
+        <defs>
+            <filter id="blob">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"/>
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="blob"/>
+            </filter>
+        </defs>
+    </svg>
+
+    <script src="main.js"></script>
+    <script>
+        // Global navigation functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Global navigation script loaded');
+            
+            // Menu toggle button
+            const menuButton = document.getElementById('menu-toggle');
+            if (menuButton) {
+                console.log('Menu button found');
+                menuButton.addEventListener('click', function(e) {
+                    console.log('Menu button clicked');
+                    e.preventDefault();
+                    document.body.classList.toggle('menu-toggled');
+                });
+            }
+            
+            // Menu links - close menu when clicked
+            const menuLinks = document.querySelectorAll('#menu-links .link');
+            menuLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+                    
+                    // Check if clicking on the current page
+                    if (href === currentPage || (href === 'index.html' && currentPage === '')) {
+                        // Add close animation for same section
+                        e.preventDefault();
+                        document.body.classList.add('menu-closing');
+                        setTimeout(() => {
+                            document.body.classList.remove('menu-toggled');
+                            document.body.classList.remove('menu-closing');
+                        }, 300);
+                    } else {
+                        // Close menu when navigating to different page
+                        document.body.classList.remove('menu-toggled');
+                    }
+                });
+            });
+            
+            // Close menu when clicking outside
+            const menu = document.getElementById('menu');
+            if (menu) {
+                document.addEventListener('click', function(event) {
+                    if (!menu.contains(event.target) && document.body.classList.contains('menu-toggled')) {
+                        document.body.classList.remove('menu-toggled');
+                    }
+                });
+            }
+            
+            // ESC key to close menu
+            document.addEventListener('keydown', function(event) {
+                if (event.key === 'Escape' && document.body.classList.contains('menu-toggled')) {
+                    document.body.classList.remove('menu-toggled');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

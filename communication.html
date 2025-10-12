@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Communication Technology - Intelligent Transport Systems Portfolio</title>
+    <meta name="description" content="Communication technology and power issues in Intelligent Transport Systems">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <!-- Custom Animated Navigation -->
+    <div id="menu">
+        <button type="button" id="menu-toggle">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>  
+            <div id="menu-toggle-label">
+                <span class="word">ITS</span>
+                <span class="word">PORTFOLIO</span>
+            </div>
+        </button>
+        <div id="menu-gradient"></div>
+        <div id="menu-gradient-blur"></div>
+        <div id="menu-arcs-wrapper">
+            <svg id="menu-arcs">
+                <circle class="menu-arc" cx="50%" cy="50%" r="18%"></circle>
+                <circle class="menu-arc" cx="50%" cy="50%" r="30%"></circle>
+                <circle class="menu-arc" cx="50%" cy="50%" r="42%"></circle>
+            </svg>
+        </div>
+                <div id="menu-links">
+            <a class="link" href="index.html">
+                <span class="anchor"></span>  
+                <span class="index">01</span>  
+                <span class="label">Home</span>  
+            </a>
+            <a class="link" href="introduction.html">
+                <span class="anchor"></span>  
+                <span class="index">02</span>  
+                <span class="label">Introduction</span>  
+            </a>
+            <a class="link" href="energy-optimization.html">
+                <span class="anchor"></span>  
+                <span class="index">03</span>  
+                <span class="label">Energy Optimization</span>  
+            </a>
+            <a class="link" href="communication.html">
+                <span class="anchor"></span>  
+                <span class="index">04</span>  
+                <span class="label">Communication</span>  
+            </a>
+            <a class="link" href="future-tech.html">
+                <span class="anchor"></span>  
+                <span class="index">05</span>  
+                <span class="label">Future Tech</span>  
+            </a>
+            <a class="link" href="conclusion.html">
+                <span class="anchor"></span>  
+                <span class="index">06</span>  
+                <span class="label">Conclusion</span>  
+            </a>
+        </div>
+    </div>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <nav class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span class="breadcrumb-separator">/</span>
+                    <span class="breadcrumb-current">Communication Technology</span>
+                </nav>
+                <h1 class="page-title">Communication Technology & Power Issues</h1>
+                <p class="page-subtitle">V2V, V2I communications and power optimization strategies</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Communication in ITS Section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Communication in ITS</h2>
+                <div class="content-grid two-column">
+                    <div class="content-text">
+                        <p>
+                            Effective communication is the backbone of ITS, enabling real-time data exchange between 
+                            vehicles, infrastructure, and control centers. However, communication systems present 
+                            significant power consumption challenges that must be addressed through innovative 
+                            optimization strategies.
+                        </p>
+                        <p>
+                            The success of ITS depends on reliable, low-latency communication that can handle 
+                            high data volumes while maintaining energy efficiency across the entire network.
+                        </p>
+                    </div>
+                    <div class="content-visual">
+                        <div class="communication-svg">
+                            <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Background -->
+                                <rect width="400" height="300" fill="url(#bgGradient)" rx="20"/>
+                                
+                                <!-- Vehicle 1 -->
+                                <g transform="translate(50, 200)">
+                                    <rect x="0" y="0" width="60" height="30" rx="5" fill="url(#vehicleGradient)"/>
+                                    <circle cx="15" cy="35" r="8" fill="#2d3748"/>
+                                    <circle cx="45" cy="35" r="8" fill="#2d3748"/>
+                                    <rect x="10" y="5" width="40" height="15" rx="3" fill="rgba(255,255,255,0.3)"/>
+                                </g>
+                                
+                                <!-- Vehicle 2 -->
+                                <g transform="translate(290, 200)">
+                                    <rect x="0" y="0" width="60" height="30" rx="5" fill="url(#vehicleGradient)"/>
+                                    <circle cx="15" cy="35" r="8" fill="#2d3748"/>
+                                    <circle cx="45" cy="35" r="8" fill="#2d3748"/>
+                                    <rect x="10" y="5" width="40" height="15" rx="3" fill="rgba(255,255,255,0.3)"/>
+                                </g>
+                                
+                                <!-- Infrastructure Tower -->
+                                <g transform="translate(180, 50)">
+                                    <rect x="15" y="0" width="10" height="120" fill="url(#towerGradient)"/>
+                                    <rect x="10" y="120" width="20" height="5" fill="#4a5568"/>
+                                    <circle cx="20" cy="20" r="8" fill="url(#antennaGradient)"/>
+                                    <rect x="18" y="0" width="4" height="20" fill="#22c55e"/>
+                                </g>
+                                
+                                <!-- Communication Waves V2V -->
+                                <g opacity="0.6">
+                                    <circle cx="110" cy="215" r="20" fill="none" stroke="url(#waveGradient)" stroke-width="2" stroke-dasharray="5,5">
+                                        <animate attributeName="r" values="20;40;20" dur="2s" repeatCount="indefinite"/>
+                                        <animate attributeName="opacity" values="0.6;0.2;0.6" dur="2s" repeatCount="indefinite"/>
+                                    </circle>
+                                    <circle cx="110" cy="215" r="30" fill="none" stroke="url(#waveGradient)" stroke-width="2" stroke-dasharray="5,5">
+                                        <animate attributeName="r" values="30;50;30" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+                                        <animate attributeName="opacity" values="0.4;0.1;0.4" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+                                    </circle>
+                                </g>
+                                
+                                <!-- Communication Waves V2I -->
+                                <g opacity="0.6">
+                                    <circle cx="200" cy="130" r="15" fill="none" stroke="url(#waveGradient)" stroke-width="2" stroke-dasharray="5,5">
+                                        <animate attributeName="r" values="15;35;15" dur="2s" repeatCount="indefinite" begin="1s"/>
+                                        <animate attributeName="opacity" values="0.6;0.2;0.6" dur="2s" repeatCount="indefinite" begin="1s"/>
+                                    </circle>
+                                    <circle cx="200" cy="130" r="25" fill="none" stroke="url(#waveGradient)" stroke-width="2" stroke-dasharray="5,5">
+                                        <animate attributeName="r" values="25;45;25" dur="2s" repeatCount="indefinite" begin="1.5s"/>
+                                        <animate attributeName="opacity" values="0.4;0.1;0.4" dur="2s" repeatCount="indefinite" begin="1.5s"/>
+                                    </circle>
+                                </g>
+                                
+                                <!-- Data Packets -->
+                                <g>
+                                    <rect x="120" y="200" width="8" height="8" rx="2" fill="url(#dataGradient)">
+                                        <animate attributeName="x" values="120;250;120" dur="3s" repeatCount="indefinite"/>
+                                        <animate attributeName="y" values="200;200;200" dur="3s" repeatCount="indefinite"/>
+                                    </rect>
+                                    <rect x="125" y="205" width="6" height="6" rx="1" fill="url(#dataGradient)">
+                                        <animate attributeName="x" values="125;255;125" dur="3s" repeatCount="indefinite" begin="0.3s"/>
+                                        <animate attributeName="y" values="205;205;205" dur="3s" repeatCount="indefinite" begin="0.3s"/>
+                                    </rect>
+                                </g>
+                                
+                                <!-- Energy Indicators -->
+                                <g>
+                                    <rect x="20" y="20" width="4" height="20" rx="2" fill="url(#energyGradient)">
+                                        <animate attributeName="height" values="20;5;20" dur="4s" repeatCount="indefinite"/>
+                                    </rect>
+                                    <rect x="25" y="25" width="4" height="15" rx="2" fill="url(#energyGradient)">
+                                        <animate attributeName="height" values="15;3;15" dur="4s" repeatCount="indefinite" begin="0.5s"/>
+                                    </rect>
+                                    <rect x="30" y="30" width="4" height="10" rx="2" fill="url(#energyGradient)">
+                                        <animate attributeName="height" values="10;2;10" dur="4s" repeatCount="indefinite" begin="1s"/>
+                                    </rect>
+                                </g>
+                                
+                                <!-- Gradients -->
+                                <defs>
+                                    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#f0fdf4;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#dcfce7;stop-opacity:1" />
+                                    </linearGradient>
+                                    <linearGradient id="vehicleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#22c55e;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#16a34a;stop-opacity:1" />
+                                    </linearGradient>
+                                    <linearGradient id="towerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#4ade80;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#22c55e;stop-opacity:1" />
+                                    </linearGradient>
+                                    <linearGradient id="antennaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#86efac;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#4ade80;stop-opacity:1" />
+                                    </linearGradient>
+                                    <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#22c55e;stop-opacity:0.8" />
+                                        <stop offset="100%" style="stop-color:#16a34a;stop-opacity:0.3" />
+                                    </linearGradient>
+                                    <linearGradient id="dataGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#4ade80;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#22c55e;stop-opacity:1" />
+                                    </linearGradient>
+                                    <linearGradient id="energyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Communication Types Section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Communication Types</h2>
+                <div class="comm-types">
+                    <div class="comm-type">
+                        <div class="comm-icon">🚗🚗</div>
+                        <div class="comm-content">
+                            <h3>Vehicle-to-Vehicle (V2V)</h3>
+                            <p>Direct communication between vehicles for collision avoidance and traffic coordination. 
+                            Enables real-time sharing of speed, position, and trajectory information between nearby vehicles.</p>
+                            <ul>
+                                <li>Collision warning systems</li>
+                                <li>Cooperative adaptive cruise control</li>
+                                <li>Emergency vehicle preemption</li>
+                                <li>Platoon coordination</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="comm-type">
+                        <div class="comm-icon">🚗🏢</div>
+                        <div class="comm-content">
+                            <h3>Vehicle-to-Infrastructure (V2I)</h3>
+                            <p>Communication between vehicles and roadside infrastructure for traffic management. 
+                            Provides access to traffic signals, road conditions, and navigation assistance.</p>
+                            <ul>
+                                <li>Traffic signal optimization</li>
+                                <li>Road condition warnings</li>
+                                <li>Parking availability information</li>
+                                <li>Emergency service coordination</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Power Optimization Strategies Section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Power Optimization Strategies</h2>
+                <div class="glass-container">
+                    <div data-text="Routing Optimization" style="--r:-15;" class="glass">
+                        <div class="glass-content">
+                            <h3>Routing Optimization</h3>
+                            <p>Intelligent path selection to minimize transmission power while maintaining communication quality. Uses adaptive algorithms to find energy-efficient routes through the network.</p>
+                        </div>
+                    </div>
+                    <div data-text="Duty Cycle Management" style="--r:5;" class="glass">
+                        <div class="glass-content">
+                            <h3>Duty Cycle Management</h3>
+                            <p>Adaptive sleep/wake cycles based on traffic conditions and communication needs. Reduces energy consumption by 60-80% during low-activity periods.</p>
+                        </div>
+                    </div>
+                    <div data-text="Congestion Control" style="--r:25;" class="glass">
+                        <div class="glass-content">
+                            <h3>Congestion Control</h3>
+                            <p>Dynamic bandwidth allocation to prevent energy waste from network congestion. Implements intelligent queuing and priority-based transmission scheduling.</p>
+                        </div>
+                    </div>
+                    <div data-text="Data Rate Adaptation" style="--r:-10;" class="glass">
+                        <div class="glass-content">
+                            <h3>Data Rate Adaptation</h3>
+                            <p>Adjusting transmission rates based on channel conditions and energy availability. Balances data throughput with power consumption for optimal efficiency.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Communication Protocols Section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Communication Protocols</h2>
+                <div class="protocols-grid">
+                    <div class="protocol-card">
+                        <div class="protocol-icon">📡</div>
+                        <h3>IEEE 802.11p (WAVE)</h3>
+                        <p>Dedicated short-range communication protocol for vehicular environments with 
+                        low latency and high reliability requirements.</p>
+                        <div class="protocol-specs">
+                            <span class="spec">Range: 1000m</span>
+                            <span class="spec">Data Rate: 27 Mbps</span>
+                            <span class="spec">Frequency: 5.9 GHz</span>
+                        </div>
+                    </div>
+                    <div class="protocol-card">
+                        <div class="protocol-icon">📶</div>
+                        <h3>5G C-V2X</h3>
+                        <p>Cellular vehicle-to-everything communication providing ultra-low latency 
+                        and high bandwidth for advanced ITS applications.</p>
+                        <div class="protocol-specs">
+                            <span class="spec">Range: 5000m</span>
+                            <span class="spec">Data Rate: 1 Gbps</span>
+                            <span class="spec">Latency: <1ms</span>
+                        </div>
+                    </div>
+                    <div class="protocol-card">
+                        <div class="protocol-icon">🔗</div>
+                        <h3>DSRC</h3>
+                        <p>Dedicated Short Range Communications for safety-critical applications 
+                        with guaranteed message delivery and timing.</p>
+                        <div class="protocol-specs">
+                            <span class="spec">Range: 300m</span>
+                            <span class="spec">Data Rate: 6-27 Mbps</span>
+                            <span class="spec">Reliability: 99.9%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Data Processing in ITS Section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Data Processing in ITS</h2>
+                <div class="content-grid">
+                    <div class="content-text">
+                        <p>
+                            ITS generates massive amounts of data from various sensors and communication systems. 
+                            Efficient processing of this data is crucial for real-time decision making while 
+                            maintaining energy efficiency. The challenge lies in balancing computational accuracy 
+                            with power consumption constraints.
+                        </p>
+                    </div>
+                </div>
+                <div class="processing-approaches">
+                    <div class="approach-item">
+                        <div class="approach-icon">🔧</div>
+                        <div class="approach-content">
+                            <h3>Embedded Computing</h3>
+                            <p>Local processing at sensor nodes reduces communication overhead but increases 
+                            local power consumption. Suitable for time-critical applications requiring immediate response.</p>
+                            <div class="approach-details">
+                                <div class="details-section">
+                                    <h4>Advantages:</h4>
+                                    <ul>
+                                        <li>Low latency processing</li>
+                                        <li>Reduced communication bandwidth</li>
+                                        <li>Real-time decision making</li>
+                                    </ul>
+                                </div>
+                                <div class="details-section">
+                                    <h4>Challenges:</h4>
+                                    <ul>
+                                        <li>Limited processing power</li>
+                                        <li>Higher local energy consumption</li>
+                                        <li>Storage limitations</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="approach-item">
+                        <div class="approach-icon">☁️</div>
+                        <div class="approach-content">
+                            <h3>Centralized Computing</h3>
+                            <p>Cloud-based processing reduces local power requirements but increases latency 
+                            and communication costs. Ideal for non-real-time analytics and complex computations.</p>
+                            <div class="approach-details">
+                                <div class="details-section">
+                                    <h4>Advantages:</h4>
+                                    <ul>
+                                        <li>Unlimited processing power</li>
+                                        <li>Lower local energy consumption</li>
+                                        <li>Advanced analytics capabilities</li>
+                                    </ul>
+                                </div>
+                                <div class="details-section">
+                                    <h4>Challenges:</h4>
+                                    <ul>
+                                        <li>Network dependency</li>
+                                        <li>Higher communication costs</li>
+                                        <li>Latency issues</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Navigation Section -->
+        <section class="section navigation-section">
+            <div class="container">
+                <h2 class="section-title">Continue Exploring</h2>
+                <div class="navigation-cards">
+                    <a href="energy-optimization.html" class="nav-card">
+                        <span class="nav-arrow">←</span>
+                        <div class="nav-content">
+                            <h3>Energy Optimization</h3>
+                            <p>Back to energy optimization techniques</p>
+                        </div>
+                    </a>
+                    <a href="future-tech.html" class="nav-card">
+                        <span class="nav-arrow">→</span>
+                        <div class="nav-content">
+                            <h3>Future Technologies</h3>
+                            <p>Explore IoV, CAV, V2X, and V2G technologies</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Animated Footer -->
+    <footer class="footer">
+        <div class="bubbles">
+            <!-- Bubbles will be generated by JavaScript -->
+        </div>
+        <div class="content">
+            <div>
+                <div>
+                    <b>Energy Management</b>
+                    <a href="index.html">Home</a>
+                    <a href="introduction.html">Introduction</a>
+                    <a href="energy-optimization.html">Optimization</a>
+                    <a href="communication.html">Communication</a>
+                    <a href="future-tech.html">Future Tech</a>
+                    <a href="conclusion.html">Conclusion</a>
+                </div>
+                <div>
+                    <b>Technologies</b>
+                    <a href="energy-optimization.html">Smart Grids</a>
+                    <a href="communication.html">IoT Systems</a>
+                    <a href="future-tech.html">AI Integration</a>
+                    <a href="conclusion.html">Sustainability</a>
+                </div>
+                <div>
+                    <b>Applications</b>
+                    <a href="introduction.html">Transport Systems</a>
+                    <a href="energy-optimization.html">Energy Efficiency</a>
+                    <a href="communication.html">Data Processing</a>
+                    <a href="future-tech.html">V2G Technology</a>
+                    <a href="conclusion.html">Research</a>
+                </div>
+                <div>
+                    <b>Resources</b>
+                    <a href="index.html">Overview</a>
+                    <a href="energy-optimization.html">Solutions</a>
+                    <a href="communication.html">Protocols</a>
+                    <a href="future-tech.html">Innovations</a>
+                </div>
+            </div>
+            <div>
+                <div class="image">⚡</div>
+                <p>&copy; 2024 ITS Portfolio<br>Energy Systems - Unit 5</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SVG Filter for Blob Effect -->
+    <svg style="position: fixed; top: 100vh">
+        <defs>
+            <filter id="blob">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"/>
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="blob"/>
+            </filter>
+        </defs>
+    </svg>
+
+    <script src="main.js"></script>
+        <script>
+        // Global navigation functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Global navigation script loaded');
+            
+            // Menu toggle button
+            const menuButton = document.getElementById('menu-toggle');
+            if (menuButton) {
+                console.log('Menu button found');
+                menuButton.addEventListener('click', function(e) {
+                    console.log('Menu button clicked');
+                    e.preventDefault();
+                    document.body.classList.toggle('menu-toggled');
+                });
+            }
+            
+            // Menu links - close menu when clicked
+            const menuLinks = document.querySelectorAll('#menu-links .link');
+            menuLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+                    
+                    // Check if clicking on the current page
+                    if (href === currentPage || (href === 'index.html' && currentPage === '')) {
+                        // Add close animation for same section
+                        e.preventDefault();
+                        document.body.classList.add('menu-closing');
+                        setTimeout(() => {
+                            document.body.classList.remove('menu-toggled');
+                            document.body.classList.remove('menu-closing');
+                        }, 300);
+                    } else {
+                        // Close menu when navigating to different page
+                        document.body.classList.remove('menu-toggled');
+                    }
+                });
+            });
+            
+            // Close menu when clicking outside
+            const menu = document.getElementById('menu');
+            if (menu) {
+                document.addEventListener('click', function(event) {
+                    if (!menu.contains(event.target) && document.body.classList.contains('menu-toggled')) {
+                        document.body.classList.remove('menu-toggled');
+                    }
+                });
+            }
+            
+            // ESC key to close menu
+            document.addEventListener('keydown', function(event) {
+                if (event.key === 'Escape' && document.body.classList.contains('menu-toggled')) {
+                    document.body.classList.remove('menu-toggled');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
